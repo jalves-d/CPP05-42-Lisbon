@@ -8,7 +8,7 @@ RobotomyRequestForm::RobotomyRequestForm(void) : Form("Robotomy request", 72, 45
 RobotomyRequestForm::RobotomyRequestForm(std::string const& target)
     : Form("Robotomy request", 72, 45)
 {
-    target = target;
+    this->target = target;
 }
 
 RobotomyRequestForm::RobotomyRequestForm(RobotomyRequestForm const& copy)

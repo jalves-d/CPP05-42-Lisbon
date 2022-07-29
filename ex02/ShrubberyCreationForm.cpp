@@ -30,7 +30,7 @@ void ShrubberyCreationForm::execute(Bureaucrat const& executor) const
    	if (this->getMinExec() < executor.getGrade())
 		throw GradeTooLowException();
     std::ofstream file;
-    file.open((_target + "_shrubbery").c_str());
+    file.open((target + "_shrubbery").c_str());
     std::cout << "João" << " the tree is ready." << std::endl;
 
     file <<"        _#_          " << std::endl

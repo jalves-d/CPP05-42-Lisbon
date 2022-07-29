@@ -3,6 +3,7 @@
 
 # include "Form.hpp"
 # include <iostream>
+# include "Bureaucrat.hpp"
 
 class PresidentialPardonForm : public Form
 {
